@@ -1,5 +1,4 @@
 import React from 'react'
-import withLoader from '../HOC/withLoader'
 import CourseCard from '../Molecules/CourseCard'
 
 const CourseGrid = ({courses}) =>(
@@ -18,4 +17,4 @@ const CourseGrid = ({courses}) =>(
     </div>
 )
 
-export default withLoader("courses")(CourseGrid)
+export default (CourseGrid)
